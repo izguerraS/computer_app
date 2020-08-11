@@ -1,0 +1,7 @@
+@computers.each do |computer|
+{
+  brand: computer.brand,
+  price: computer.price,
+  website: computer.website
+}
+end
